@@ -1,0 +1,5 @@
+/// Creates context specific properties
+@mixin contextualize($ctx) {
+	background-color: map-get($contexts, $ctx);
+	color: map-get($contexts, $ctx);
+}

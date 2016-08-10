@@ -1,0 +1,9 @@
+@import 'label.vars';
+@import 'label.mixins';
+
+.aw-label {
+	@extend %has-contexts;
+
+	padding: 10px;
+	border-radius: 5px;
+}

@@ -1,0 +1,5 @@
+/// Create an alert
+/// @param $radius
+@mixin alert($radius: $alert-radius) {
+    border-radius: $radius;
+}

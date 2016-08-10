@@ -1,0 +1,5 @@
+/// Creates a label
+/// @param $padding
+@mixin label($padding: $label-padding) {
+    padding: $padding;
+}

@@ -1,0 +1,9 @@
+@import 'alert.vars';
+@import 'alert.mixins';
+
+.aw-alert {
+	@extend %has-contexts;
+	@include alert(5px);
+
+	width: calc-percent($alert-width, $alert-container-width);
+}

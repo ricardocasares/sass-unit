@@ -1,0 +1,14 @@
+/// Create contextual classes
+%has-contexts {
+	.aw-info {
+		@include contextualize(info);
+	}
+
+	.aw-success {
+		@include contextualize(success);
+	}
+
+	.aw-danger {
+		@include contextualize(danger);
+	}
+}

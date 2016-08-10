@@ -1,0 +1,11 @@
+/// Global padding
+/// @type {Unit}
+$global-padding: 15px;
+
+/// Context map
+/// @type {Map}
+$contexts: (
+	info: 'blue',
+	success: 'green',
+	danger: 'red'
+);

@@ -1,0 +1,6 @@
+/// Calculates a percentage
+/// @param $target
+/// @param $container
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}

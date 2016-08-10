@@ -1,0 +1,29 @@
+{
+  "name": "sass-test-unit-presentation",
+  "version": "1.0.0",
+  "description": "SASS unit testing tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/gulp test",
+    "build": "node_modules/.bin/gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:ricardocasares/sass-testing-tutorial.git"
+  },
+  "keywords": [
+    "sass",
+    "unit",
+    "testing",
+    "sassaby"
+  ],
+  "author": "Ricardo Casares",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-mocha": "^3.0.0",
+    "gulp-sass": "^2.3.2",
+    "sassaby": "^2.1.1"
+  }
+}
