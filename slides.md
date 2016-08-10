@@ -55,8 +55,8 @@ SASS unit testing with Sassaby
 ### Let's create a `gulp` task for running our tests
 
 
-- `git clone http://github.com/ricardocasares/sass-testing-tutorial.git`
-- `cd sass-testing-tutorial`
+- `git clone https://github.com/ricardocasares/sass-unit.git`
+- `cd sass-unit`
 - `npm install`
 - Run `npm test` or `gulp test`
 
