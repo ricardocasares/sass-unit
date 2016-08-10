@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:ricardocasares/sass-testing-tutorial.git"
+    "url": "ssh://git@github.com:ricardocasares/sass-unit.git"
   },
   "keywords": [
     "sass",
